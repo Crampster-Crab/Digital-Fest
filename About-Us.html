@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="assets/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #202124;
+        }
+        .grid1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 750px;
+
+        }
+        .thalaketukal{
+            color: #FFA500;
+            font-family: "Roboto", serif;
+            font-size: 50px;
+            font-style: normal;
+            margin: 33.5px;
+        }
+        .paras{
+            color: white;
+            font-family: "Montserrat", serif;
+            font-style: normal;
+            margin: 2px;
+            padding: 15px;
+        }
+        .Intro{
+            grid-row: 1;
+            grid-column: 1;
+            padding: 10px;
+        }
+        .grid1{
+            position: relative;
+            top: 100px;
+        }
+        .logo1{
+            font-family: "Bebas Neue", serif !important;
+            font-weight: normal;
+        }
+        .Story{
+            grid-row: 1;
+            grid-column: 2;
+            padding: 10px;
+        }
+        .Core-values{
+            grid-row: 2;
+            grid-column: 1;
+            padding: 10px;
+        }
+        .What-we-do{
+            grid-row: 2;
+            grid-column: 2;
+            padding: 10px;
+        }
+        @media(max-width: 800px){
+            .grid1{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+            grid-template-columns: 2;
+            height: 2000px;
+
+        }
+        .Intro{
+            grid-row: 1;
+            grid-column: span2;
+            padding: 10px;
+        }
+        .Story{
+            grid-row: 2;
+            grid-column: span2;
+            padding: 10px;
+        }
+        .Core-values{
+            grid-row: 3;
+            grid-column: span2;
+            padding: 10px;
+        }
+        .What-we-do{
+            grid-row: 4;
+            grid-column: span2;
+            padding: 10px;
+
+        }
+       }
+       @media(max-width:800px){
+            .nav-bar{
+                background-color: black;
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+                height: 120px;
+                width: 100%;
+                flex-wrap: wrap;
+                position: relative;
+    
+            }
+            #Title{
+               display: none;
+            }
+            .nav-content{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin: 0px;
+    background-color: #202124;
+    border-radius: 10px;
+    
+    
+}        
+        
+        }
+    </style>
+
+</head>
+<body>
+    <div class="about-us-parent">
+        <div class="nav-bar">
+            <a href="../index.html"><h1 class="nav-content" id="Title" >The Page</h1></a>
+            <a href="../index.html" class="nav-content"><h1>Home</h1></a>
+            <a href="About-Us.html" class="nav-content"><h1> About Us</h1></a>
+            <a href="Contact-us.html" class="nav-content"><h1> Contact Us</h1></a>
+            <a href="Advertise.html" class="nav-content"><h1> Advertise With Us</h1></a>
+            <a href="Our-Branches.html" class="nav-content"><h1> Career</h1></a>
+        </div>
+        <div class="grid1">
+            <div class="Intro">
+                <h1 class="thalaketukal">Welcome to <span class="thalaketukal logo1" style="margin: 0px;">The Page</span></h1>
+                <p class="paras">At The Page, we are more than just a newspaper—we are a voice, a platform, and a bridge to the stories that matter. Dedicated to delivering accurate, unbiased, and impactful news, we strive to keep our readers informed and engaged with the world around them.Our mission is to be your trusted source for current events, insightful analysis, and compelling stories that shape our society. With a commitment to truth and integrity, The Page is here to turn every headline into a meaningful conversation.Join us as we bring the world to your fingertips, one page at a time.</p>
+            </div>
+            <div class="Story">
+                <h1 class="thalaketukal">Our Story</h1>
+                <p class="paras">The Page was born out of a simple yet profound idea: to create a platform that informs, inspires, and empowers. Founded in 200 BCE, our journey began with the belief that reliable journalism is the cornerstone of a well-informed society.
+
+                    From humble beginnings as a small newsroom, we have grown into a trusted source for delivering timely and accurate news. Our passion for storytelling drives us to uncover the stories that matter—those that spark conversations, challenge perspectives, and shine a light on untold truths.
+                    
+                    At The Page, we don’t just report the news; we bring it to life. With every article we publish, we aim to connect communities, celebrate diversity, and foster a deeper understanding of the world we share.
+                    
+                    Our journey is fueled by a commitment to journalistic integrity and a vision to keep our readers informed, one page at a time.</p>
+            </div>
+            <div class="Core-values">
+                <h1 class="thalaketukal">Our Core Values</h1>
+                <p class="paras"><ol class="paras">At The Page, our work is guided by a set of principles that define who we are and what we stand for:
+
+                    <li>Integrity</li>
+                    We are committed to delivering news that is accurate, fair, and free from bias. Truth is at the heart of everything we do.
+                    
+                    <li>Transparency</li>
+                    We believe in open and honest communication with our readers, ensuring that our processes and reporting are trustworthy.
+                    
+                    <li>Excellence</li>
+                    From in-depth journalism to thoughtful storytelling, we strive to set the highest standards in every aspect of our work.
+                    
+                    <li>Diversity and Inclusion</li>
+                    We celebrate diverse perspectives and amplify voices from all walks of life, fostering a richer understanding of the world.
+                    
+                    <li>Innovation</li>
+                    As the media landscape evolves, we embrace new tools and techniques to deliver news in ways that are engaging, accessible, and impactful.
+                    
+                    <li>Community Impact</li>
+                    We aim to inspire positive change by shedding light on issues that matter and empowering our readers with knowledge.</ol>
+                </p>
+
+            </div>
+            <div class="What-we-do">
+                <h2 class="thalaketukal">What We Do</h2>
+                <p class="paras">At The Page, we are dedicated to keeping you informed, engaged, and connected to the stories that matter. Here’s what we offer:
+
+                    <ol class="paras"><li>Printed Newspapers Delivered to Your Doorstep</li>
+                    We bring the news straight to your home, ensuring you start your day with accurate and timely updates on current events, local stories, and global happenings.
+                    
+                    <li>Digital Newspapers for the Modern Reader</li>
+                    Stay informed on the go with our digital editions, accessible on your devices anytime, anywhere. Experience the convenience of up-to-date news at your fingertips.
+                    
+                    <li>Magazines That Inspire and Inform</li>
+                    From in-depth features to lifestyle insights, our magazines are designed to captivate and educate readers with a variety of engaging content.
+                    
+                    <li>Special Editions and Supplements</li>
+                    We curate focused content on key topics, offering unique perspectives and deeper dives into the stories that shape our world.
+                    
+                    <li>Advertising Solutions</li>
+                    Partner with us to reach your audience effectively through our trusted platform. We offer innovative advertising options in both print and digital formats.
+                    
+                    At The Page, our mission is to provide news and stories that resonate with every reader. Whether it’s through print, digital, or special publications, we are here to keep you informed and inspired.</ol>
+                    
+                    </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

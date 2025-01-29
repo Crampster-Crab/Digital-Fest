@@ -1,0 +1,225 @@
+
+body{
+    margin: 0px;
+    overflow-y: scroll;
+}
+
+.bottom{
+    background-color: #202124;
+    grid-row: 2;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around ;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+ 
+#Title{
+    font-family: "Bebas Neue", serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+    height: 100px;
+    min-width: max-content;
+}
+.nav-content{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin: 0px;
+    margin-top: 55px;
+    
+}
+.nav-content:hover{
+    background-color: white;
+    color: black;
+    border: 1px;
+    border-radius: 5%;
+    padding: 0px;
+
+}
+/* Apply to all links */
+a {
+    text-decoration: none;
+  }
+  
+  /* Remove decoration from all states */
+  a:hover, a:focus, a:visited {
+    text-decoration: none;
+  }
+  /* what to fix tommorow when i shrink flexy it is eatig up title page*/
+.Parent{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    position:relative;
+    top: 100px;
+    height: 1500px;
+}
+.top{
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    
+    
+}
+.main-shit{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row: 1;
+    
+}
+.p1{
+    background-color:  #4285F4;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 25px;
+    color: white;
+    justify-content: baseline;
+    align-items: center;
+    padding: 5px;
+}
+.p2{
+    background-color:  #EA4335;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: white;
+    justify-content: baseline;
+    align-items: center;
+    gap:30px;
+    padding: 5px;
+}
+.p3{
+    background-color: #FBBC04;
+    grid-column: 3;
+    grid-row: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: white;
+    justify-content: baseline;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+.p4{
+    background-color:  #34A853;
+    grid-column: 4;
+    grid-row: 2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    color: white;
+    justify-content: baseline;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    
+}
+.Pheading{
+    font-size: 35px;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+.pdescription{
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+.pricing-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  .pricing-plan{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+    margin: 10px;
+
+
+    
+  }
+  .plan-features{
+    list-style: none;
+    margin: 5px;
+  }
+  .plan-features > li{
+    margin: 15px;
+  }
+  .plan-price{
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .plan-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+  }
+  .plan-button{
+    border-radius: 5px;
+    background-color: #F28500;
+    border: 0px;
+    color: white;
+    width: 4rem ;
+    height: 2rem;
+  }
+  .plan-button:hover{
+    cursor: pointer;
+  }
+  #Premium{
+    background-color: #4169E1 ;
+
+  }
+  #Basic{
+    background-color: #3cb043;
+  }
+  #Standard{
+    background-color:  #EA4335;
+  }
+  @media (max-width: 1250px) {
+    .pricing-container{
+    display: flex;
+    flex-basis:1;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+
+
+
